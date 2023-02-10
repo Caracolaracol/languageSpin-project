@@ -4,7 +4,7 @@ import Root from '../Root/Root'
 import Inicio from '../Pages/Inicio'
 import Espanol from '../Pages/Español/Espanol'
 import Ingles from '../Pages/Ingles/Ingles'
-import Portugues from '../Pages/Portugues/Portuges'
+import Portugues from '../Pages/Portugues/Portugues'
 import Italiano from '../Pages/Italiano/Italiano'
 import Nosotros from '../Pages/Nosotros/Nosotros'
 
