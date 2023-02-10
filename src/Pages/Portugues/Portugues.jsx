@@ -1,14 +1,15 @@
 import Header from "../../components/Header"
 import Footer from '../../components/Footer'
 
-function Nosotros() {
+function Portugues(){
+
     return (
         <div>
             <Header/>
-            <h1>nosotros</h1>
+            <h2>Portugues</h2>
             <Footer />
         </div>
     )
 }
 
-export default Nosotros
+export default Portugues
