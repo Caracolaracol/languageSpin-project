@@ -1,3 +1,4 @@
+
 import Header from "../../components/Header"
 import Footer from '../../components/Footer'
 
@@ -7,6 +8,7 @@ function Nosotros() {
             <Header/>
             <h1>nosotros</h1>
             <Footer />
+
         </div>
     )
 }
