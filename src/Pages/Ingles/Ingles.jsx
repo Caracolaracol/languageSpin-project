@@ -1,19 +1,59 @@
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
+import { getLanguageData, getTestimonials } from '../../services/services';
+import { useEffect, useState } from 'react';
 
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+function Ingles() {
+  const [languageData, setLanguageData] = useState({});
+  const [languageTestimonials, setLanguageTestimonials] = useState([]);
 
-function Ingles(){
+  useEffect(() => {
+    const getData = async () => {
+      const language = await getLanguageData('ingles');
+      const testimonials = await getTestimonials('ingles');
+      setLanguageData(language);
+      setLanguageTestimonials(testimonials);
+    };
+    getData();
+  }, []);
 
-    return (
-        <div>
+  return (
+    <div>
+      <Header />
+      <Container>
+        <PageTitle text={languageData.nombre} />
 
-            <Header />
-            <h2>Ingles</h2>
-            <Footer />
+        <Section>
+          <SectionTitle text='cursos' />
+          <div className='bg-white rounded-md p-4'>
+            {languageData
+              ? languageData.cursos?.map((curso) => (
+                  <div key={curso.nombre} className='capitalize py-2'>
+                    {curso.nombre}
+                  </div>
+                ))
+              : null}
+          </div>
+        </Section>
 
-
-        </div>
-    )
+        <Section>
+          <SectionTitle text='testimonios' />
+          <div className='bg-white rounded-md p-4'>
+            {languageTestimonials
+              ? languageTestimonials.map((testimonio) => (
+                  <div key={testimonio.nombre}>
+                    <p className='capitalize font-medium mb-1'>{testimonio.nombre}</p>
+                    <p>{testimonio.testimonio}</p>
+                  </div>
+                ))
+              : null}
+          </div>
+        </Section>
+      </Container>
+      <Footer />
+    </div>
+  );
 }
 
-export default Ingles
+export default Ingles;

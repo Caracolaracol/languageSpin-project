@@ -1,0 +1,77 @@
+{
+  "idiomas": [
+    {
+      "nombre": "ingles",
+      "profesores": ["profesor 1", "profesor 2"],
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+      "modalidades": ["presencial", "online", "a domicilio"],
+      "link_wpp": "https://www.dominio.com",
+      "cursos": [
+        {
+          "nombre": "preparacion para examenes"
+        },
+        {
+          "nombre": "por niveles"
+        },
+        {
+          "nombre": "ingles para jovenes profesionales"
+        },
+        {
+          "nombre": "clases de apoyo para primaria y secundaria"
+        },
+        {
+          "nombre": "clases flex"
+        },
+        {
+          "nombre": "test de nivelacion"
+        }
+      ]
+    },
+    {
+      "nombre": "italiano",
+      "profesores": ["profesor 2"],
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+      "modalidades": ["online"],
+      "link_wpp": "https://www.dominio.com",
+      "cursos": null
+    },
+    {
+      "nombre": "portugués",
+      "profesores": ["profesor 3"],
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+      "modalidades": ["online"],
+      "link_wpp": "https://www.dominio.com",
+      "cursos": null
+    },
+    {
+      "nombre": "español",
+      "profesores": ["profesor 4"],
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+      "modalidades": ["online"],
+      "link_wpp": "https://www.dominio.com",
+      "cursos": null
+    }
+  ],
+  "testimonios": [
+    {
+      "nombre": "persona1",
+      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "idioma": "ingles"
+    },
+    {
+      "nombre": "persona2",
+      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "idioma": "italiano"
+    },
+    {
+      "nombre": "persona3",
+      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "idioma": "español"
+    },
+    {
+      "nombre": "persona4",
+      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "idioma": "portugues"
+    }
+  ]
+}
