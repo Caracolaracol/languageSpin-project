@@ -1,8 +1,9 @@
+import { useEffect, useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import { getLanguageData, getTestimonials } from '../../services/services';
-import { useEffect, useState } from 'react';
+import { CursoCard } from '../../components/curso/CursoCard';
 
 function Ingles() {
   const [languageData, setLanguageData] = useState({});
@@ -26,13 +27,9 @@ function Ingles() {
 
         <Section>
           <SectionTitle text='cursos' />
-          <div className='bg-white rounded-md p-4'>
+          <div className='grid grid-cols-1 gap-4'>
             {languageData
-              ? languageData.cursos?.map((curso) => (
-                  <div key={curso.nombre} className='capitalize py-2'>
-                    {curso.nombre}
-                  </div>
-                ))
+              ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
               : null}
           </div>
         </Section>

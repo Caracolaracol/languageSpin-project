@@ -5,25 +5,52 @@
       "profesores": ["profesor 1", "profesor 2"],
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
       "modalidades": ["presencial", "online", "a domicilio"],
-      "link_wpp": "https://www.dominio.com",
       "cursos": [
         {
-          "nombre": "preparacion para examenes"
+          "nombre": "preparación para exámenes internacionales",
+          "profesores": ["celeste arias", "ayelén olima"],
+          "cantidad_alumnos": 6,
+          "modalidades": ["presencial"],
+          "duracion": null,
+          "link_wpp": "https://www.dominio.com"
         },
         {
-          "nombre": "por niveles"
+          "nombre": "inglés con certificación de UTN",
+          "profesores": ["celeste arias"],
+          "cantidad_alumnos": 12,
+          "modalidades": ["presencial", "online"],
+          "duracion": null,
+          "link_wpp": "https://www.dominio.com"
         },
         {
-          "nombre": "ingles para jovenes profesionales"
+          "nombre": "inglés para jovenes profesionales",
+          "profesores": ["celeste arias"],
+          "cantidad_alumnos": 12,
+          "modalidades": ["presencial", "online"],
+          "duracion": "anual",
+          "link_wpp": "https://www.dominio.com"
         },
         {
-          "nombre": "clases de apoyo para primaria y secundaria"
+          "nombre": "clases de apoyo para primaria y secundaria",
+          "profesores": ["agostina d'alessandro", "eduardo luján"],
+          "cantidad_alumnos": 4,
+          "modalidades": ["presencial", "online", "a domicilio"],
+          "duracion": null,
+          "link_wpp": "https://www.dominio.com"
         },
         {
-          "nombre": "clases flex"
-        },
-        {
-          "nombre": "test de nivelacion"
+          "nombre": "clases flex",
+          "profesores": [
+            "celeste arias",
+            "ayelén olima",
+            "eduardo luján",
+            "luciano romero",
+            "agostina d'alessandro"
+          ],
+          "cantidad_alumnos": 15,
+          "modalidades": ["presencial", "online"],
+          "duracion": null,
+          "link_wpp": "https://www.dominio.com"
         }
       ]
     },
@@ -33,7 +60,15 @@
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
       "modalidades": ["online"],
       "link_wpp": "https://www.dominio.com",
-      "cursos": null
+      "cursos": [
+        {
+          "nombre": "italiano",
+          "profesores": ["cecilia carabajal"],
+          "cantidad_alumnos": 4,
+          "modalidades": ["online"],
+          "duracion": null
+        }
+      ]
     },
     {
       "nombre": "portugués",
