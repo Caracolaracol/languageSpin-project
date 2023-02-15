@@ -5,7 +5,7 @@ export const Container = ({ children }) => {
 
 // Separa bloques de contenido a traves de padding top y bot
 export const Section = ({ children }) => {
-  return <section className='py-4'>{children}</section>;
+  return <section className='pb-16'>{children}</section>;
 };
 
 // Utilizar una sola vez por pagina
@@ -16,6 +16,6 @@ export const PageTitle = ({ text }) => {
 // Utilizar como titulo de seccion (<Section>) en caso de que corresponda
 export const SectionTitle = ({ text }) => {
   return (
-    <h2 className='first-letter:capitalize text-xl font-semibold mb-2 text-zinc-700'>{text}</h2>
+    <h2 className='first-letter:capitalize text-xl font-semibold mb-4 text-zinc-700'>{text}</h2>
   );
 };
