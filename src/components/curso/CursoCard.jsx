@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+import Balancer from 'react-wrap-balancer';
 
 export const CursoCard = ({ curso }) => {
   return (
-    <article className='bg-white p-4 m-1 rounded-lg shadow-borderShadow border-t-[6px] border-verdeSpin overflow-visible'>
-      <p className='mb-4 text-lg leading-tight text-zinc-800 font-bold first-letter:capitalize'>
-        {curso.nombre}
+    <article className='bg-white p-4 rounded-lg shadow-borderShadow border-t-[6px] border-verdeSpin'>
+      <p className='mb-6 text-2xl text-zinc-800 font-extrabold'>
+        <Balancer className='first-letter:capitalize'>{curso.nombre}</Balancer>
       </p>
       <div className='mb-4'>
         <p className='text-sm'>Profesores:</p>

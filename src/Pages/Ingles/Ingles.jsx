@@ -28,7 +28,7 @@ function Ingles() {
 
         <Section>
           <SectionTitle text='cursos' />
-          <div className='grid grid-cols-1 gap-4 overflow-visible'>
+          <div className='grid grid-cols-1 gap-4 p-1'>
             {languageData
               ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
               : null}
@@ -37,7 +37,7 @@ function Ingles() {
 
         <Section>
           <SectionTitle text='testimonios' />
-          <div className=''>
+          <div className='grid grid-cols-1 gap-4 p-1'>
             {languageTestimonials
               ? languageTestimonials.map((testimonio) => (
                   <TestimonioCard key={testimonio.nombre} testimonio={testimonio} />
