@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
+
 export const CursoCard = ({ curso }) => {
   return (
-    <article className='bg-white p-4 rounded-lg shadow-xl'>
+    <article className='bg-white p-4 m-1 rounded-lg shadow-borderShadow border-t-[6px] border-verdeSpin overflow-visible'>
       <p className='mb-4 text-lg leading-tight text-zinc-800 font-bold first-letter:capitalize'>
         {curso.nombre}
       </p>
@@ -18,7 +20,11 @@ export const CursoCard = ({ curso }) => {
       </div>
       <div className='mb-4'>
         <p className='text-sm'>Cantidad de alumnos aprox:</p>
-        <span className='font-semibold'>{curso.cantidad_alumnos}</span>
+        {curso.cantidad_alumnos !== null ? (
+          <span className='font-semibold'>{curso.cantidad_alumnos}</span>
+        ) : (
+          <span>Clases personalizadas sin cupo limitado.</span>
+        )}
       </div>
       <div className='mb-4'>
         <p className='text-sm'>Modalidades:</p>
@@ -35,12 +41,15 @@ export const CursoCard = ({ curso }) => {
       {curso.duracion !== null && (
         <div>
           <p className='text-sm'>Duración:</p>
-          <span className='font-semibold capitalize'>{curso.duracion}</span>
+          <p className='font-semibold first-letter:capitalize'>{curso.duracion}</p>
         </div>
       )}
-      <button className='mt-4 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full py-4 rounded-lg'>
+      <Link
+        to={curso.link_wpp}
+        target='_blank'
+        className='mt-4 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full block text-center py-4 rounded-lg'>
         Solicitar más información
-      </button>
+      </Link>
     </article>
   );
 };

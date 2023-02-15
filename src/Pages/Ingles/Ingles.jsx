@@ -4,6 +4,7 @@ import Footer from '../../components/Footer';
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import { getLanguageData, getTestimonials } from '../../services/services';
 import { CursoCard } from '../../components/curso/CursoCard';
+import { TestimonioCard } from '../../components/curso/TestimonioCard';
 
 function Ingles() {
   const [languageData, setLanguageData] = useState({});
@@ -27,7 +28,7 @@ function Ingles() {
 
         <Section>
           <SectionTitle text='cursos' />
-          <div className='grid grid-cols-1 gap-4'>
+          <div className='grid grid-cols-1 gap-4 overflow-visible'>
             {languageData
               ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
               : null}
@@ -36,13 +37,10 @@ function Ingles() {
 
         <Section>
           <SectionTitle text='testimonios' />
-          <div className='bg-white rounded-md p-4'>
+          <div className=''>
             {languageTestimonials
               ? languageTestimonials.map((testimonio) => (
-                  <div key={testimonio.nombre}>
-                    <p className='capitalize font-medium mb-1'>{testimonio.nombre}</p>
-                    <p>{testimonio.testimonio}</p>
-                  </div>
+                  <TestimonioCard key={testimonio.nombre} testimonio={testimonio} />
                 ))
               : null}
           </div>

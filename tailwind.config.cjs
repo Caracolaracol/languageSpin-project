@@ -8,6 +8,10 @@ module.exports = {
         verdeSpin: 'rgb(0, 138, 138)',
         rojoSpin: 'rgb(255,87,86)',
       },
+      boxShadow: {
+        borderShadow:
+          '0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05), 0px 0px 0px 1px rgba(0 0 0 / 0.05)',
+      },
     },
   },
   plugins: [],
