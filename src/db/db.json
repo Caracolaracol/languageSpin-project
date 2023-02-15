@@ -2,9 +2,8 @@
   "idiomas": [
     {
       "nombre": "ingles",
-      "profesores": ["profesor 1", "profesor 2"],
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
-      "modalidades": ["presencial", "online", "a domicilio"],
+      "modalidades": ["presencial", "online", "teacher at home"],
       "cursos": [
         {
           "nombre": "preparación para exámenes internacionales",
@@ -12,31 +11,31 @@
           "cantidad_alumnos": 6,
           "modalidades": ["presencial"],
           "duracion": null,
-          "link_wpp": "https://www.dominio.com"
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Preparaci%C3%B3n%20para%20ex%C3%A1menes%20internacionales."
         },
         {
           "nombre": "inglés con certificación de UTN",
           "profesores": ["celeste arias"],
           "cantidad_alumnos": 12,
           "modalidades": ["presencial", "online"],
-          "duracion": null,
-          "link_wpp": "https://www.dominio.com"
+          "duracion": "varía de acuerdo al alumno",
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Ingl%C3%A9s%20con%20certificaci%C3%B3n%20de%20UTN."
         },
         {
-          "nombre": "inglés para jovenes profesionales",
-          "profesores": ["celeste arias"],
+          "nombre": "inglés para profesionales",
+          "profesores": ["eduardo luján"],
           "cantidad_alumnos": 12,
           "modalidades": ["presencial", "online"],
-          "duracion": "anual",
-          "link_wpp": "https://www.dominio.com"
+          "duracion": "9 meses",
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Ingl%C3%A9s%20para%20profesionales."
         },
         {
           "nombre": "clases de apoyo para primaria y secundaria",
           "profesores": ["agostina d'alessandro", "eduardo luján"],
           "cantidad_alumnos": 4,
-          "modalidades": ["presencial", "online", "a domicilio"],
+          "modalidades": ["presencial", "online", "teacher at home"],
           "duracion": null,
-          "link_wpp": "https://www.dominio.com"
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20apoyo%20para%20primaria%20y%20secundaria."
         },
         {
           "nombre": "clases flex",
@@ -50,41 +49,54 @@
           "cantidad_alumnos": 15,
           "modalidades": ["presencial", "online"],
           "duracion": null,
-          "link_wpp": "https://www.dominio.com"
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20Flex."
         }
       ]
     },
     {
       "nombre": "italiano",
-      "profesores": ["profesor 2"],
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
       "modalidades": ["online"],
-      "link_wpp": "https://www.dominio.com",
       "cursos": [
         {
           "nombre": "italiano",
           "profesores": ["cecilia carabajal"],
           "cantidad_alumnos": 4,
           "modalidades": ["online"],
-          "duracion": null
+          "duracion": null,
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20italiano."
         }
       ]
     },
     {
-      "nombre": "portugués",
-      "profesores": ["profesor 3"],
+      "nombre": "portugues",
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
       "modalidades": ["online"],
-      "link_wpp": "https://www.dominio.com",
-      "cursos": null
+      "cursos": [
+        {
+          "nombre": "portugues",
+          "profesores": ["natalia"],
+          "cantidad_alumnos": 3,
+          "modalidades": ["online"],
+          "duracion": null,
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20portugu%C3%A9s."
+        }
+      ]
     },
     {
       "nombre": "español",
-      "profesores": ["profesor 4"],
       "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
       "modalidades": ["online"],
-      "link_wpp": "https://www.dominio.com",
-      "cursos": null
+      "cursos": [
+        {
+          "nombre": "español",
+          "profesores": ["eduardo luján", "celeste arias", "cecilia carabajal", "natalia"],
+          "cantidad_alumnos": null,
+          "modalidades": ["online", "presencial"],
+          "duracion": null,
+          "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20espa%C3%B1ol."
+        }
+      ]
     }
   ],
   "testimonios": [
