@@ -1,20 +1,37 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 
 function NavBar() {
+  
+
   return (
-    <div>
-      <ul className='flex gap-6 mx-2'>
+    <div className='ml-auto my-8 flex justify-center'>
+      <ul className='flex gap-4 sm:gap-6 mx-2'>
         <li>
-          <Link to='/ingles'>Inglés</Link>
+          <NavLink
+            to='/ingles'
+            className={({ isActive }) =>
+              isActive ? 'active' : 'notactive'
+            }
+          >Inglés</NavLink>
         </li>
         <li>
-          <Link to='/italiano'> Italiano </Link>
+          <NavLink to='/italiano'
+            className={({ isActive }) =>
+              isActive ? 'active' : 'notactive'
+            }>Italiano</NavLink>
         </li>
         <li>
-          <Link to='/portugues'>Portugués </Link>
+          <NavLink to='/portugues'
+            className={({ isActive }) =>
+            isActive ? 'active' : 'notactive'
+            }>Portugués</NavLink>
         </li>
         <li>
-          <Link to='/espanol'>Español </Link>
+          <NavLink to='/espanol'
+            className={({ isActive }) =>
+            isActive ? 'active' : 'notactive'
+            }>Español</NavLink>
         </li>
       </ul>
     </div>

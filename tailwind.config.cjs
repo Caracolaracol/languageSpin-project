@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         // backgrounds
         verdeSpin: 'rgb(0, 138, 138)',
+        verdeSpinDark: 'rgb(0,98,102)',
         rojoSpin: 'rgb(255,87,86)',
       },
       boxShadow: {
