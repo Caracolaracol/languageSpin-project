@@ -5,7 +5,6 @@ import { Container, PageTitle, Section, SectionTitle } from '../../components/ut
 function Nosotros() {
   return (
     <div>
-      <Header />
       <Container>
         <PageTitle text='sobre nosotros' />
         <Section>
@@ -75,7 +74,6 @@ function Nosotros() {
           </div>
         </Section>
       </Container>
-      <Footer />
     </div>
   );
 }

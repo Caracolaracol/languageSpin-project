@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import { getLanguageData, getTestimonials } from '../../services/services';
 import { CursoCard } from '../../components/curso/CursoCard';
@@ -22,7 +20,6 @@ function Ingles() {
 
   return (
     <div>
-      <Header />
       <Container>
         <PageTitle text={languageData.nombre} />
 
@@ -50,7 +47,6 @@ function Ingles() {
           </div>
         </Section>
       </Container>
-      <Footer />
     </div>
   );
 }
