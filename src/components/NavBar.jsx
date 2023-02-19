@@ -6,7 +6,7 @@ function NavBar() {
 
   return (
     <div className='ml-auto my-8 flex justify-center'>
-      <ul className='flex gap-4 sm:gap-6 mx-2'>
+      <ul className='flex gap-3 sm:gap-6 sm:mx-2'>
         <li>
           <NavLink
             to='/ingles'
