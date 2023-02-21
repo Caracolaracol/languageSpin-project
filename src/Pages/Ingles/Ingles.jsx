@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import { getLanguageData, getTestimonials } from '../../services/services';
 import { CursoCard } from '../../components/curso/CursoCard';
+import { CursoContainer } from '../../components/curso/CursoContainer';
 import { TestimonioCard } from '../../components/curso/TestimonioCard';
 
 function Ingles() {
@@ -26,19 +27,17 @@ function Ingles() {
         <Section>
           <SectionTitle text='cursos' />
 
-          <div className='grid grid-cols-1 gap-4 p-1'>
-
+          <CursoContainer>
             {languageData
               ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
               : null}
-          </div>
+          </CursoContainer>
         </Section>
 
         <Section>
           <SectionTitle text='testimonios' />
 
           <div className='grid grid-cols-1 gap-4 p-1'>
-
             {languageTestimonials
               ? languageTestimonials.map((testimonio) => (
                   <TestimonioCard key={testimonio.nombre} testimonio={testimonio} />
