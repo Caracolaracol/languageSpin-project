@@ -10,7 +10,7 @@ function Header() {
         </Link>
       </div>
       <div className='h-[4rem] md:h-[8rem] flex flex-col justify-center'>
-          <h1 className='text-lg font-bold align-text-bottom md:text-4xl md:leading-[4rem]' >Language Spin Idiomas</h1>
+          <h1 className='text-lg font-bold align-text-bottom md:text-5xl md:leading-[4rem] opacity-90 drop-shadow-xl '>Language Spin Idiomas</h1>
 
           
       </div>
