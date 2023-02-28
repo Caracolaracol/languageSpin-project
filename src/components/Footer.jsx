@@ -35,7 +35,7 @@ function Footer() {
       </ul>
       <ul>
         <li>
-          <Link to='/nosotros' className='font-semibold hover:text-white transition'>
+          <Link to='/nosotros' className='font-semibold hover:text-white transition  bg-black bg-opacity-10 p-2 rounded-md hover:text-white hover:bg-opacity-30'>
             Nosotros
           </Link>
         </li>
