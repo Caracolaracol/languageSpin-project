@@ -20,3 +20,32 @@ html {
     @apply min-w-[4rem] px-2 py-2 sm:px-3 sm:py-2 md:py-3 bg-verdeSpin hover:bg-verdeSpinDark opacity-80 rounded-sm text-xs uppercase font-extrabold text-zinc-100 text-center
   }
 }
+
+
+.swiper-pagination-bullet {
+  filter: drop-shadow(0px 0px 8px rgb(82, 44, 3));
+}
+.swiper-pagination-bullet-active {
+  filter: drop-shadow(0px 0px 8px rgb(82, 44, 3));
+}
+
+.swiper-button-prev, .swiper-button-next {
+  filter: drop-shadow(2px 2px 7px rgb(255,87,86));
+}
+
+@media screen and (max-width: 400px) {
+  .swiper-button-next {
+    background-size: auto 40%;
+  }
+  .swiper-button-prev {
+    background-size: auto 40%;
+  }
+}
+@media (max-width: 600px) {
+  .swiper-button-next {
+    background-size: auto 70%;
+  }
+  .swiper-button-prev {
+    background-size: auto 70%;
+  }
+} 
