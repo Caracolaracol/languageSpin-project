@@ -2,45 +2,88 @@ import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <div className='my-4'>
-      <ul className='flex items-center justify-between'>
-        <NavLink to='/ingles' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-          <li className='flex flex-col items-center justify-center'>
-            <img
-              src='./src/assets/uk-flag.png'
-              className='border border-zinc-300 w-16 h-16 object-cover rounded-full'
-            />
-            <p className='text-sm'>Inglés</p>
-          </li>
-        </NavLink>
-        <NavLink to='/italiano' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-          <li className='flex flex-col items-center justify-center'>
-            <img
-              src='./src/assets/it-flag.png'
-              className='border border-zinc-300 w-16 h-16 object-cover rounded-full'
-            />
-            <p className='text-sm'>Italiano</p>
-          </li>
-        </NavLink>
-        <NavLink to='/portugues' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-          <li className='flex flex-col items-center justify-center'>
-            <img
-              src='./src/assets/pt-flag.png'
-              className='border border-zinc-300 w-16 h-16 object-cover rounded-full'
-            />
-
-            <p className='text-sm'>Portugués</p>
-          </li>
-        </NavLink>
-        <NavLink to='/espanol' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-          <li className='flex flex-col items-center justify-center'>
-            <img
-              src='./src/assets/es-flag.png'
-              className='border border-zinc-300 w-16 h-16 object-cover rounded-full'
-            />
-            <p className='text-sm'>Español</p>
-          </li>
-        </NavLink>
+    <div className='my-4 md:my-8'>
+      <ul className='flex items-center justify-between md:justify-center md:gap-20'>
+        <li>
+          <NavLink to='/ingles' className='flex flex-col items-center justify-center'>
+            {({ isActive }) => (
+              <>
+                <img
+                  src='./src/assets/united-kingdom.png'
+                  className={`${
+                    isActive ? '' : 'brightness-[0.85]'
+                  }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
+                />
+                <p
+                  className={`text-sm md:text-base mt-1 font-bold text-zinc-600 ${
+                    isActive && 'text-verdeSpin'
+                  }`}>
+                  Inglés
+                </p>
+              </>
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/italiano' className='flex flex-col items-center justify-center'>
+            {({ isActive }) => (
+              <>
+                <img
+                  src='./src/assets/italy.png'
+                  className={`${
+                    isActive ? '' : 'brightness-[0.85]'
+                  }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
+                />
+                <p
+                  className={`text-sm md:text-base mt-1 font-bold text-zinc-600 ${
+                    isActive && 'text-verdeSpin'
+                  }`}>
+                  Italiano
+                </p>
+              </>
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/portugues' className='flex flex-col items-center justify-center'>
+            {({ isActive }) => (
+              <>
+                <img
+                  src='./src/assets/brazil.png'
+                  className={`${
+                    isActive ? '' : 'brightness-[0.85]'
+                  }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
+                />
+                <p
+                  className={`text-sm md:text-base mt-1 font-bold text-zinc-600 ${
+                    isActive && 'text-verdeSpin'
+                  }`}>
+                  Portugués
+                </p>
+              </>
+            )}
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to='/espanol' className='flex flex-col items-center justify-center'>
+            {({ isActive }) => (
+              <>
+                <img
+                  src='./src/assets/argentina.png'
+                  className={`${
+                    isActive ? '' : 'brightness-[0.85]'
+                  }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
+                />
+                <p
+                  className={`text-sm md:text-base mt-1 font-bold text-zinc-600 ${
+                    isActive && 'text-verdeSpin'
+                  }`}>
+                  Español
+                </p>
+              </>
+            )}
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
