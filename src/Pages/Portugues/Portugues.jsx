@@ -23,35 +23,35 @@ function Portugues(){
     }, []);
 
     return (
-        <div>
-            <Container>
-        <PageTitle text={languageData.nombre} />
+      <div className='transicion'>
+        <Container>
+          <PageTitle text={languageData.nombre} />
 
-        <Section>
-          <SectionTitle text='cursos' />
+          <Section>
+            <SectionTitle text='cursos' />
 
-          <div className='grid grid-cols-1 gap-4 p-1'>
+            <div className='grid grid-cols-1 gap-4 p-1'>
 
-            {languageData
-              ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
-              : null}
-          </div>
-        </Section>
+              {languageData
+                ? languageData.cursos?.map((curso) => <CursoCard key={curso.nombre} curso={curso} />)
+                : null}
+            </div>
+          </Section>
 
-        <Section>
-          <SectionTitle text='testimonios' />
+          <Section>
+            <SectionTitle text='testimonios' />
 
-          <div className='grid grid-cols-1 gap-4 p-1'>
+            <div className='grid grid-cols-1 gap-4 p-1'>
 
-            {languageTestimonials
-              ? languageTestimonials.map((testimonio) => (
+              {languageTestimonials
+                ? languageTestimonials.map((testimonio) => (
                   <TestimonioCard key={testimonio.nombre} testimonio={testimonio} />
                 ))
-              : null}
-          </div>
-        </Section>
-      </Container>
-        </div>
+                : null}
+            </div>
+          </Section>
+        </Container>
+      </div>
     )
 }
 

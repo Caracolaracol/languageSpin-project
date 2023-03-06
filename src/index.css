@@ -14,10 +14,18 @@ html {
 
 @layer components {
   .active {
-    @apply min-w-[4rem] px-2 py-2  sm:px-3 sm:py-2 md:py-3 bg-rojoSpin opacity-80 rounded-sm text-xs uppercase font-black text-zinc-100 text-center
+    @apply p-3 flex flex-col items-center gap-2 bg-rojoSpin opacity-80 rounded-full md:rounded-[90px]  text-zinc-100 text-center
   }
   .notactive {
-    @apply min-w-[4rem] px-2 py-2 sm:px-3 sm:py-2 md:py-3 bg-verdeSpin hover:bg-verdeSpinDark opacity-80 rounded-sm text-xs uppercase font-extrabold text-zinc-100 text-center
+    @apply p-3 flex flex-col items-center gap-2 bg-verdeSpin hover:bg-verdeSpinDark opacity-80 rounded-full md:rounded-[90px]   text-zinc-100 text-center
+  }
+
+  .transicion {
+    animation: transicion  250ms ease-in-out;
+  }
+  @keyframes transicion {
+    from {opacity: 0;}
+    to {opacity: 1;}
   }
 }
 
