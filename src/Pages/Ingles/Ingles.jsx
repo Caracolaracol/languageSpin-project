@@ -20,7 +20,7 @@ function Ingles() {
   }, []);
 
   return (
-    <div>
+    <div className='transicion'>
       <Container>
         <PageTitle text={languageData.nombre} />
 
