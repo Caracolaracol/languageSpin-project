@@ -1,4 +1,8 @@
 import { NavLink } from 'react-router-dom';
+import ukFlag from '../assets/united-kingdom.png';
+import itFlag from '../assets/italy.png';
+import brFlag from '../assets/brazil.png';
+import arFlag from '../assets/argentina.png';
 
 function NavBar() {
   return (
@@ -9,7 +13,7 @@ function NavBar() {
             {({ isActive }) => (
               <>
                 <img
-                  src='./src/assets/united-kingdom.png'
+                  src={ukFlag}
                   className={`${
                     isActive ? '' : 'brightness-[0.85]'
                   }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
@@ -29,7 +33,7 @@ function NavBar() {
             {({ isActive }) => (
               <>
                 <img
-                  src='./src/assets/italy.png'
+                  src={itFlag}
                   className={`${
                     isActive ? '' : 'brightness-[0.85]'
                   }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
@@ -49,7 +53,7 @@ function NavBar() {
             {({ isActive }) => (
               <>
                 <img
-                  src='./src/assets/brazil.png'
+                  src={brFlag}
                   className={`${
                     isActive ? '' : 'brightness-[0.85]'
                   }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
@@ -69,7 +73,7 @@ function NavBar() {
             {({ isActive }) => (
               <>
                 <img
-                  src='./src/assets/argentina.png'
+                  src={arFlag}
                   className={`${
                     isActive ? '' : 'brightness-[0.85]'
                   }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-100`}
