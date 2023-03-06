@@ -36,9 +36,9 @@ function Footer() {
         </li>
       </ul>
 
-      <ul>
+      <ul className='self-end place-self-end col-span-2 lg:col-auto lg:place-self-auto lg:col-auto'>
         <li>
-          <Link to='/nosotros' className='font-semibold hover:text-white transition  bg-black bg-opacity-10 p-2 rounded-md hover:text-white hover:bg-opacity-30'>
+          <Link to='/nosotros' className='font-semibold  transition  bg-black bg-opacity-10 p-2 rounded-md hover:text-white hover:bg-opacity-30'>
             Nosotros
           </Link>
         </li>
