@@ -1,54 +1,98 @@
 import { NavLink } from 'react-router-dom';
-import argentinaLogo from '../assets/argentina.png'
-import brazilLogo from '../assets/brazil.png'
-import italyLogo from '../assets/italy.png'
-import englishLogo from '../assets/united-kingdom.png'
+
+import ukFlag from '../assets/united-kingdom.png';
+import itFlag from '../assets/italy.png';
+import brFlag from '../assets/brazil.png';
+import arFlag from '../assets/argentina.png';
+import { Container } from '../components/utils/utils';
 
 function NavBar() {
   return (
-    <div key='transicion' className='my-8 flex justify-center transicion '>
-      <ul className='flex items-center gap-2 sm:gap-6 pb-7'>
-        <li className='shrink-0'>
-          <NavLink to='/ingles' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-              <img src={englishLogo} className='w-[13vw] h-[13vw] sm:w-[6rem] sm:h-[6rem] md:w-[9rem] md:h-[9rem] lg:w-[10rem]  lg:h-[10rem]' />
-              <p className='text-[10px] lg:text-[16px] font-semibold'>
-                  Ingles
-              </p>
-          </NavLink>
-        </li>
-        <li className='shrink-0'>
-          <NavLink to='/italiano' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-
-              <img src={italyLogo} className='w-[13vw] h-[13vw] sm:w-[6rem] sm:h-[6rem] md:w-[9rem] md:h-[9rem] lg:w-[10rem]  lg:h-[10rem]' />
-              <p className='text-[10px] lg:text-[16px] font-semibold'>
-                Italiano
-              </p>
-
-          </NavLink> 
-        </li>
-        <li className='max-w-[74px] sm:max-w-fit shrink-0'>
-          <NavLink
-            to='/portugues'
-            className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
- 
-              <img src={brazilLogo} className='w-[13vw] h-[13vw] sm:w-[6rem] sm:h-[6rem] md:w-[9rem] md:h-[9rem] lg:w-[10rem]  lg:h-[10rem]' />
-              <p className='text-[10px] lg:text-[16px] font-semibold'>
-                Portugués
-              </p>
-
-          </NavLink>
-        </li>
-        <li className='shrink-0'>
-          <NavLink to='/espanol' className={({ isActive }) => (isActive ? 'active' : 'notactive')}>
-
-              <img src={argentinaLogo} className='w-[13vw] h-[13vw] sm:w-[6rem] sm:h-[6rem] md:w-[9rem] md:h-[9rem] lg:w-[10rem]  lg:h-[10rem]' />
-              <p className='text-[10px] lg:text-[16px] font-semibold'>
-                Español
-              </p>
-
-          </NavLink>
-        </li>
-      </ul>
+    <div className='bg-verdeSpin py-4 md:py-8 md:mb-12'>
+      <Container>
+        <ul className='flex items-center justify-between md:justify-center md:gap-20'>
+          <li>
+            <NavLink to='/ingles' className='flex flex-col items-center justify-center'>
+              {({ isActive }) => (
+                <>
+                  <img
+                    src={ukFlag}
+                    className={`${
+                      isActive && 'brightness-125'
+                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                  />
+                  <p
+                    className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
+                      isActive ? 'bg-rojoSpin' : 'bg-transparent'
+                    }`}>
+                    Inglés
+                  </p>
+                </>
+              )}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to='/italiano' className='flex flex-col items-center justify-center'>
+              {({ isActive }) => (
+                <>
+                  <img
+                    src={itFlag}
+                    className={`${
+                      isActive && 'brightness-125'
+                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                  />
+                  <p
+                    className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
+                      isActive ? 'bg-rojoSpin' : 'bg-transparent'
+                    }`}>
+                    Italiano
+                  </p>
+                </>
+              )}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to='/portugues' className='flex flex-col items-center justify-center'>
+              {({ isActive }) => (
+                <>
+                  <img
+                    src={brFlag}
+                    className={`${
+                      isActive && 'brightness-125'
+                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                  />
+                  <p
+                    className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
+                      isActive ? 'bg-rojoSpin' : 'bg-transparent'
+                    }`}>
+                    Portugués
+                  </p>
+                </>
+              )}
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to='/espanol' className='flex flex-col items-center justify-center'>
+              {({ isActive }) => (
+                <>
+                  <img
+                    src={arFlag}
+                    className={`${
+                      isActive && 'brightness-125'
+                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                  />
+                  <p
+                    className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
+                      isActive ? 'bg-rojoSpin' : 'bg-transparent'
+                    }`}>
+                    Español
+                  </p>
+                </>
+              )}
+            </NavLink>
+          </li>
+        </ul>
+      </Container>
     </div>
   );
 }

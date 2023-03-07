@@ -3,7 +3,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import { Container } from '../components/utils/utils';
-import "../index.css";
+import '../index.css';
+
+
 const Root = () => {
   return (
     <div className='bg-zinc-100 min-h-screen flex flex-col justify-between'>
@@ -14,7 +16,7 @@ const Root = () => {
           </Container>
         <Outlet />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
