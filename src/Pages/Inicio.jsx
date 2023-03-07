@@ -7,9 +7,13 @@ function Inicio(){
 
     return (
         <div className='m-auto transicion'>
-            <Container>
-                <Slider />
-            </Container> 
+            <div className='hidden sm:block'>
+
+            
+                <Container>
+                    <Slider />
+                </Container>
+            </div>
             <div className='p-4 sm:hidden' >
                 <div className='shadow-borderShadow bg-white rounded-md p-4'>
                     <img src={smUtn} width="1280" height="720"  />
