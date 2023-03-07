@@ -1,6 +1,8 @@
 import { Navigation, Pagination, Autoplay } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+import carrusel1 from '../assets/caruselutn.png'
+
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,7 +13,7 @@ import "../index.css";
 function Slider() {
 
     return (
-        <div className='w-[100%] h-[100%] border-[1px] border-spacing-2'>
+        <div className='w-[100%] h-[100%] p-4'>
         <Swiper
             style={{
                 "--swiper-navigation-color": "#ff5756",
@@ -29,37 +31,18 @@ function Slider() {
             className='mySwiper'
         >
             <SwiperSlide>
-                <div className='flex h-[19rem]'>
-                    <img src='https://placekitten.com/180/200/' width="1280" height="720"  />
-                    <div className='p-4 '>
+                <div className='flex'>
+                    <img src={carrusel1}   />
+                </div>
+            </SwiperSlide>
+{/*             <SwiperSlide>
+                <div className='flex'>
+                    <img src='https://placekitten.com/352/1159/'  />
+                    <div className='p-4 border-[1px] border-spacing-2'>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex praesentium aspernatur</p>
                     </div>
                 </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className='flex h-[19rem]'>
-                    <img src='https://placekitten.com/160/140/' width="1280" height="720"  />
-                    <div className='p-4 '>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex praesentium aspernatur</p>
-                    </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className='flex h-[19rem]'>
-                    <img src='https://placekitten.com/260/90/' width="1280" height="720"  />
-                    <div className='p-4 '>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex praesentium aspernatur</p>
-                    </div>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className='flex h-[19rem]'>
-                    <img src='https://placekitten.com/160/100/' width="1280" height="720"  />
-                    <div className='p-4 '>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex praesentium aspernatur</p>
-                    </div>
-                </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
         </Swiper>
     </div>
     )

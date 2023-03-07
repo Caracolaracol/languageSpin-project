@@ -2,6 +2,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import thankyou from '/thankyou.png';
+import staff from '../../assets/staffphoto.jpg'
 function Nosotros() {
   return (
     <div className='transicion'>
@@ -27,6 +28,9 @@ function Nosotros() {
             </div>
           </div>
         </Section>
+        <Container>
+          <img src={staff} className='pb-8'/>
+        </Container>
         <Section>
           <div className='flex gap-6'>
             <div className='flex flex-col justify-center items-center gap-1'>
