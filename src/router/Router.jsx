@@ -7,6 +7,7 @@ import Ingles from '../Pages/Ingles/Ingles'
 import Portugues from '../Pages/Portugues/Portugues'
 import Italiano from '../Pages/Italiano/Italiano'
 import Nosotros from '../Pages/Nosotros/Nosotros'
+import RootNosotros from '../Root/RootNosotros'
 
 
 export const router = createBrowserRouter([
@@ -36,9 +37,17 @@ export const router = createBrowserRouter([
         path: '/italiano',
         element: <Italiano/>
       },
+    ]
+  },
+  {
+    path: '/nosotros',
+    element: <RootNosotros/>,
+    errorElement: <ErrorPage/>,
+    children: [
       {
-        path:'/nosotros',
-        element:<Nosotros/>
+        path: '/nosotros',
+        element: <Nosotros/>,
+        index: true,
       }
     ]
   }

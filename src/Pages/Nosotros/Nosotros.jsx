@@ -4,7 +4,7 @@ import { Container, PageTitle, Section, SectionTitle } from '../../components/ut
 import thankyou from '/thankyou.png';
 function Nosotros() {
   return (
-    <div>
+    <div className='transicion'>
       <Container>
         <PageTitle text='sobre nosotros' />
         <Section>

@@ -3,11 +3,15 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        avenue: ['Avenue']
+      },
       colors: {
         // backgrounds
         verdeSpin: 'rgb(0, 138, 138)',
         verdeSpinDark: 'rgb(0,98,102)',
         rojoSpin: 'rgb(255,87,86)',
+        rojoSpinDark: 'rgb(163,55,54)',
       },
       boxShadow: {
         borderShadow:
