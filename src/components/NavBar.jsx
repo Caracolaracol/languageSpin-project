@@ -8,7 +8,7 @@ import { Container } from '../components/utils/utils';
 
 function NavBar() {
   return (
-    <div className='bg-verdeSpin py-4 md:py-8 md:mb-12'>
+    <div className='bg-verdeSpin py-6 md:py-8 md:mb-12'>
       <Container>
         <ul className='flex items-center justify-between md:justify-center md:gap-20'>
           <li>
@@ -19,7 +19,7 @@ function NavBar() {
                     src={ukFlag}
                     className={`${
                       isActive && 'brightness-125'
-                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                    } ring-2 md:ring-4 ring-white w-16 h-16 md:w-32 md:h-32 rounded-full transition hover:brightness-110`}
                   />
                   <p
                     className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
@@ -39,7 +39,7 @@ function NavBar() {
                     src={itFlag}
                     className={`${
                       isActive && 'brightness-125'
-                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                    } ring-2 md:ring-4 ring-white w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
                   />
                   <p
                     className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
@@ -59,7 +59,7 @@ function NavBar() {
                     src={brFlag}
                     className={`${
                       isActive && 'brightness-125'
-                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                    } ring-2 md:ring-4 ring-white w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
                   />
                   <p
                     className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
@@ -79,7 +79,7 @@ function NavBar() {
                     src={arFlag}
                     className={`${
                       isActive && 'brightness-125'
-                    }  w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
+                    } ring-2 md:ring-4 ring-white w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
                   />
                   <p
                     className={`text-sm md:text-base mt-2 px-2 rounded font-bold text-white ${
