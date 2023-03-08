@@ -10,12 +10,18 @@ export const Section = ({ children }) => {
 
 // Utilizar una sola vez por pagina
 export const PageTitle = ({ text }) => {
-  return <h1 className='font-extrabold text-3xl py-4 text-zinc-800 capitalize'>{text}</h1>;
+  return (
+    <h1 className='font-extrabold text-3xl md:text-5xl py-4 text-zinc-800 capitalize text-center'>
+      {text}
+    </h1>
+  );
 };
 
 // Utilizar como titulo de seccion (<Section>) en caso de que corresponda
 export const SectionTitle = ({ text }) => {
   return (
-    <h2 className='first-letter:capitalize text-xl font-semibold mb-4 text-zinc-700'>{text}</h2>
+    <h2 className='first-letter:capitalize text-sm md:text-lg font-bold mb-4 text-verdeSpin uppercase text-center'>
+      {text}
+    </h2>
   );
 };
