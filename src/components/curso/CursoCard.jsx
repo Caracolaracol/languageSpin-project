@@ -5,15 +5,16 @@ import { HiClock } from 'react-icons/hi2';
 
 export const CursoCard = ({ curso }) => {
   return (
-    <article className='flex flex-col justify-between bg-gradient-to-b from-verdeSpin to-verdeSpinDark p-4 md:p-6 rounded-lg shadow-borderShadow '>
+    <article className='flex flex-col justify-between bg-gradient-to-b from-verdeSpin to-verdeSpinDark p-4 md:p-8 rounded-lg shadow-borderShadow'>
       <div>
-        <p className='first-letter:capitalize text-[28px] md:text-4xl leading-tight pt-2 md:pt-4 pb-4 md:pb-6 text-white font-extrabold w-[13ch] md:w-[18ch] mx-auto text-center'>
+        <p className='font-lato first-letter:capitalize text-[28px] md:text-[40px] leading-tight pt-2 md:pt-4 pb-4 md:pb-6 text-white font-black w-[13ch] md:w-[22ch] mx-auto text-center'>
           {curso.nombre}
         </p>
-        <p className='text-zinc-300 text-sm md:text-base md:leading-normal mb-6 text-center'>
+        <p className='text-zinc-300 text-sm md:text-base md:leading-normal mb-6 text-center max-w-3xl mx-auto'>
           <Balancer>{curso.descripcion}</Balancer>
         </p>
-        <div className='border border-zinc-200 opacity-20 rounded mb-6 md:mb-8'></div>
+
+        <div className='border border-zinc-200 opacity-20 rounded mb-6 md:mb-8 md:max-w-[800px] md:mx-auto'></div>
 
         <div className='grid grid-cols-3 md:max-w-xl md:mx-auto md:gap-0 gap-6'>
           <div className='flex flex-col items-center'>
@@ -74,7 +75,7 @@ export const CursoCard = ({ curso }) => {
       <Link
         to={curso.link_wpp}
         target='_blank'
-        className='mt-6 md:mt-8 shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full block text-center py-4 md:py-6 rounded-lg'>
+        className='mt-6 md:mt-8 shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full md:max-w-2xl md:mx-auto block text-center py-4 md:py-6 rounded-lg'>
         Solicitar más información
       </Link>
     </article>
