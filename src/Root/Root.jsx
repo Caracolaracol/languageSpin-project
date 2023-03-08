@@ -11,9 +11,7 @@ const Root = () => {
     <div className='bg-zinc-100 min-h-screen flex flex-col justify-between'>
       <div>
         <Header/>
-          <Container>
-            <NavBar />
-          </Container>
+        <NavBar />
         <Outlet />
       </div>
       <Footer />
