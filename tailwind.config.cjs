@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        avenue: ['Avenue']
+        avenue: 'Avenue',
+        lato: 'Lato',
       },
       colors: {
         // backgrounds
