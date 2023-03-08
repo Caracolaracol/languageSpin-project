@@ -5,7 +5,7 @@ import { HiClock } from 'react-icons/hi2';
 
 export const CursoCard = ({ curso }) => {
   return (
-    <article className='flex flex-col justify-between bg-gradient-to-b from-verdeSpin to-verdeSpinDark p-4 rounded-lg shadow-borderShadow '>
+    <article className='flex flex-col justify-between bg-gradient-to-b from-verdeSpin to-verdeSpinDark p-4 md:p-6 rounded-lg shadow-borderShadow '>
       <div>
         <p className='first-letter:capitalize text-[28px] md:text-4xl leading-tight pt-2 md:pt-4 pb-4 md:pb-6 text-white font-extrabold w-[13ch] md:w-[18ch] mx-auto text-center'>
           {curso.nombre}
@@ -15,7 +15,7 @@ export const CursoCard = ({ curso }) => {
         </p>
         <div className='border border-zinc-200 opacity-20 rounded mb-6 md:mb-8'></div>
 
-        <div className='grid grid-cols-3 gap-6'>
+        <div className='grid grid-cols-3 md:max-w-xl md:mx-auto md:gap-0 gap-6'>
           <div className='flex flex-col items-center'>
             <p className='text-[11px] md:text-sm mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
               <IoSchool className='w-6 h-6 text-zinc-300' />
@@ -29,15 +29,15 @@ export const CursoCard = ({ curso }) => {
           </div>
 
           <div className='flex flex-col items-center'>
-            <p className='text-[11px] mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
+            <p className='text-[11px] md:text-sm mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
               <IoSettings className='w-6 h-6 text-zinc-300' />
               <span>Modalidades</span>
             </p>
-            <div className='flex items-center gap-1 flex-wrap justify-center'>
+            <div className='flex items-center gap-1 md:gap-2 flex-wrap justify-center'>
               {curso.modalidades.map((modalidad) => (
                 <span
                   key={modalidad}
-                  className='capitalize text-xs font-semibold bg-rojoSpin bg-opacity-80 text-white py-1 px-1.5 rounded-md w-max'>
+                  className='capitalize text-xs md:text-base font-semibold bg-rojoSpin bg-opacity-80 text-white py-1 px-1.5 rounded-md w-max'>
                   {modalidad}
                 </span>
               ))}
@@ -45,7 +45,7 @@ export const CursoCard = ({ curso }) => {
           </div>
 
           <div className='flex flex-col items-center'>
-            <p className='text-[11px] mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
+            <p className='text-[11px] md:text-sm mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
               <HiClock className='w-6 h-6 text-zinc-300' />
               <span>Duración</span>
             </p>
@@ -55,7 +55,7 @@ export const CursoCard = ({ curso }) => {
           </div>
         </div>
 
-        <div className='mt-4'>
+        <div className='mt-4 md:mt-8'>
           <p className='text-[11px] md:text-sm mb-1 text-zinc-200 font-semibold uppercase flex flex-col items-center gap-1'>
             <IoPerson className='w-6 h-6 text-zinc-300' />
             <span>Profesores</span>
@@ -74,7 +74,7 @@ export const CursoCard = ({ curso }) => {
       <Link
         to={curso.link_wpp}
         target='_blank'
-        className='mt-6  shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full block text-center py-4 rounded-lg'>
+        className='mt-6 md:mt-8 shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full block text-center py-4 md:py-6 rounded-lg'>
         Solicitar más información
       </Link>
     </article>
