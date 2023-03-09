@@ -11,7 +11,6 @@ import carruselmobile2 from '../assets/carruselmobile2.png'
 import carruselmobile3 from '../assets/carruselmobile3.png'
 
 
-
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -35,6 +34,7 @@ function Slider() {
                         delay: 3000,
                         disableOnInteraction: false,
                     }}
+                    loop={true}
                     spaceBetween={30}
                     navigation={true}
                     modules={[Pagination, Navigation, Autoplay]}
