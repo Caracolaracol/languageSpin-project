@@ -38,7 +38,7 @@ export const CursoCard = ({ curso }) => {
               {curso.modalidades.map((modalidad) => (
                 <span
                   key={modalidad}
-                  className='capitalize text-xs md:text-base font-semibold bg-rojoSpin bg-opacity-80 text-white py-1 px-1.5 rounded-md w-max'>
+                  className='capitalize text-xs md:text-base font-semibold bg-verdeSpin bg-opacity-80 text-white py-1 px-1.5 rounded-md w-max'>
                   {modalidad}
                 </span>
               ))}
