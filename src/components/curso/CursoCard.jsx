@@ -25,7 +25,9 @@ export const CursoCard = ({ curso }) => {
             {curso.cantidad_alumnos !== null ? (
               <span className='font-semibold md:text-lg text-white'>{curso.cantidad_alumnos}</span>
             ) : (
-              <span>Clases personalizadas sin cupo limitado.</span>
+              <span className='font-semibold md:text-lg text-white'>
+                Clases personalizadas sin cupo limitado.
+              </span>
             )}
           </div>
 
