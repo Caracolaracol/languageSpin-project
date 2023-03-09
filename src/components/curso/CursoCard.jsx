@@ -22,13 +22,9 @@ export const CursoCard = ({ curso }) => {
               <IoSchool className='w-6 h-6 text-zinc-300' />
               <span>Alumnos</span>
             </p>
-            {curso.cantidad_alumnos !== null ? (
-              <span className='font-semibold md:text-lg text-white'>{curso.cantidad_alumnos}</span>
-            ) : (
-              <span className='text-sm font-medium text-white first-letter:capitalize text-center'>
-                Clases personalizadas sin cupo limitado.
-              </span>
-            )}
+            <span className='text-sm font-medium text-white first-letter:capitalize text-center'>
+              {curso.cantidad_alumnos}
+            </span>
           </div>
 
           <div className='flex flex-col items-center'>
@@ -77,7 +73,7 @@ export const CursoCard = ({ curso }) => {
       <Link
         to={curso.link_wpp}
         target='_blank'
-        className='mt-6 md:mt-8 shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full md:max-w-2xl md:mx-auto block text-center py-4 md:py-6 rounded-lg'>
+        className='mt-6 md:mt-8 shadow-lg border border-zinc-200 border-opacity-30 bg-verdeSpin text-xs uppercase font-extrabold text-zinc-100 w-full md:max-w-2xl md:mx-auto block text-center py-4 md:py-6 rounded-lg hover:brightness-110 transition'>
         Solicitar más información
       </Link>
     </article>
