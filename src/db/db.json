@@ -2,8 +2,6 @@
   "idiomas": [
     {
       "nombre": "ingles",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
-      "modalidades": ["presencial", "online", "teacher at home"],
       "cursos": [
         {
           "nombre": "preparación para exámenes internacionales",
@@ -60,45 +58,42 @@
     },
     {
       "nombre": "italiano",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
-      "modalidades": ["online"],
       "cursos": [
         {
           "nombre": "italiano",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
           "profesores": ["cecilia carabajal"],
           "cantidad_alumnos": 4,
           "modalidades": ["online"],
-          "duracion": null,
+          "duracion": "varía según el alumno",
           "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20italiano."
         }
       ]
     },
     {
       "nombre": "portugues",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
-      "modalidades": ["online"],
       "cursos": [
         {
           "nombre": "portugues",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
           "profesores": ["natalia"],
           "cantidad_alumnos": 3,
           "modalidades": ["online"],
-          "duracion": null,
+          "duracion": "varía según el alumno",
           "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20portugu%C3%A9s."
         }
       ]
     },
     {
       "nombre": "español",
-      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
-      "modalidades": ["online"],
       "cursos": [
         {
           "nombre": "español",
+          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
           "profesores": ["eduardo luján", "celeste arias", "cecilia carabajal", "natalia"],
-          "cantidad_alumnos": null,
+          "cantidad_alumnos": "Clases sin cupo limitado",
           "modalidades": ["online", "presencial"],
-          "duracion": null,
+          "duracion": "varía según el alumno",
           "link_wpp": "https://api.whatsapp.com/send?phone=93834069803&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Clases%20de%20espa%C3%B1ol."
         }
       ]
