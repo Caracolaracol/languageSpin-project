@@ -5,7 +5,7 @@
       "cursos": [
         {
           "nombre": "preparación para exámenes internacionales",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Actualmente preparamos IELTS, TOEFL, TOEIC y exámenes de Cambridge. Las clases tienen 2 instancias: la preparación previa para tener una mejor comprensión del examen, y el formato del examen mismo. Contamos con material actualizado.",
           "profesores": ["celeste arias", "ayelén olima"],
           "cantidad_alumnos": 6,
           "modalidades": ["presencial"],
@@ -14,7 +14,7 @@
         },
         {
           "nombre": "inglés con certificación de UTN",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Puede iniciarse en cualquier momento del año. Se realiza una evaluación previa para definir el nivel del alumno. Luego se estima el tiempo de preparación para rendir el examen final.",
           "profesores": ["celeste arias"],
           "cantidad_alumnos": 12,
           "modalidades": ["presencial", "online"],
@@ -23,7 +23,7 @@
         },
         {
           "nombre": "inglés para profesionales",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Este curso está destinado para profesionales que quieran mejorar sus competencias comunicativas en el idioma Inglés. Partimos desde una base A1 donde revisamos contenido básico como vocabulario y gramática. Para luego enfocarnos en habilidades tales como listening (escuchar), vemos contenido de pronunciación, writing(escritura). Para luego finalizar el curso habiendo desarrollado la habilidad del habla (speaking). Formato del curso: los alumnos pueden decidir cumplir con los 3 niveles o hacer mínimo 2 niveles para tener un certificado.",
           "profesores": ["eduardo luján"],
           "cantidad_alumnos": 12,
           "modalidades": ["presencial", "online"],
@@ -32,7 +32,7 @@
         },
         {
           "nombre": "clases de apoyo para primaria y secundaria",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Clases disponibles todo el año, para rendir exámenes, previas o consultas específicas. También recomendado para aprender por diversión y curiosidad.",
           "profesores": ["agostina d'alessandro", "eduardo luján"],
           "cantidad_alumnos": 4,
           "modalidades": ["presencial", "online", "teacher at home"],
@@ -41,7 +41,7 @@
         },
         {
           "nombre": "clases flex",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Son clases que pueden tomarse en cualquier momento del año. Se coordinan horarios flexibles entre el alumno y profesor.",
           "profesores": [
             "celeste arias",
             "ayelén olima",
@@ -61,7 +61,7 @@
       "cursos": [
         {
           "nombre": "italiano",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Las clases son interactivas, donde se ven conceptos de gramática y vocabulario. Están a cargo de un profesor nativo, con el objetivo de mejorar la habilidad comunicativa y la pronunciación. Pueden ser individuales o grupales.",
           "profesores": ["cecilia carabajal"],
           "cantidad_alumnos": 4,
           "modalidades": ["online"],
@@ -75,7 +75,7 @@
       "cursos": [
         {
           "nombre": "portugues",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Las clases son interactivas, donde se ven conceptos de gramática y vocabulario. Están a cargo de un profesor nativo, con el objetivo de mejorar la habilidad comunicativa y la pronunciación. Pueden ser individuales o grupales.",
           "profesores": ["natalia"],
           "cantidad_alumnos": 3,
           "modalidades": ["online"],
@@ -89,7 +89,7 @@
       "cursos": [
         {
           "nombre": "español",
-          "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo cupiditate veniam non animi reprehenderit perferendis libero consectetur. Excepturi ipsum eaque fuga eos deleniti est consectetur quam nisi dolorem quas enim sunt dolore perspiciatis, ducimus libero reiciendis autem sapiente magni cupiditate impedit at? Voluptas quaerat recusandae dolor nam deleniti architecto!",
+          "descripcion": "Las clases son interactivas, donde se ven conceptos de gramática y vocabulario. Están a cargo de un profesor nativo, con el objetivo de mejorar la habilidad comunicativa y la pronunciación. Pueden ser individuales o grupales.",
           "profesores": ["eduardo luján", "celeste arias", "cecilia carabajal", "natalia"],
           "cantidad_alumnos": "Clases sin cupo limitado",
           "modalidades": ["online", "presencial"],
