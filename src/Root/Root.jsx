@@ -8,7 +8,7 @@ const Root = () => {
   return (
     <div className='bg-zinc-100 min-h-screen flex flex-col justify-between'>
       <div>
-        <Header />
+        <Header/>
         <NavBar />
         <Outlet />
       </div>

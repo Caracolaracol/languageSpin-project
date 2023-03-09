@@ -106,23 +106,23 @@
   ],
   "testimonios": [
     {
-      "nombre": "persona1",
-      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "nombre": "Rosa,54 años.",
+      "testimonio": "Las estrategias enseñanza- aprendizaje  utilizadas por las docentes me permitieron adquirir los conocimientos básicos necesarios para poder aprobar la materia Ingles Técnico en el Doctorado en Demografía cursado en la  Universidad Nacional de Córdoba",
       "idioma": "ingles"
     },
     {
-      "nombre": "persona2",
-      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "nombre": "Matías, 28 años. ",
+      "testimonio": "Excelente las clases, muy didácticas hacen que el alumno se interese mas",
       "idioma": "italiano"
     },
     {
-      "nombre": "persona3",
-      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "nombre": "Anna, 18 años.",
+      "testimonio": "Me ayudaron mucho y en tan poquito tiempo aprendí lo que necesitaba.",
       "idioma": "español"
     },
     {
-      "nombre": "persona4",
-      "testimonio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, animi quos. Eveniet dolores placeat tempore!",
+      "nombre": "Sofía, 21 años. ",
+      "testimonio": "El contenido fue fácil de entender y la profe fue muy atenta, hasta el día que me entregaron la nota ella siempre estuvo ",
       "idioma": "portugues"
     }
   ]
