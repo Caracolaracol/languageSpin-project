@@ -42,13 +42,7 @@
         {
           "nombre": "clases flex",
           "descripcion": "Son clases que pueden tomarse en cualquier momento del año. Se coordinan horarios flexibles entre el alumno y profesor.",
-          "profesores": [
-            "celeste arias",
-            "ayelén olima",
-            "eduardo luján",
-            "luciano romero",
-            "agostina d'alessandro"
-          ],
+          "profesores": ["celeste arias", "ayelén olima", "eduardo luján", "agostina d'alessandro"],
           "cantidad_alumnos": 15,
           "modalidades": ["presencial", "online"],
           "duracion": "varía según el alumno",
@@ -76,7 +70,7 @@
         {
           "nombre": "portugues",
           "descripcion": "Las clases son interactivas, donde se ven conceptos de gramática y vocabulario. Están a cargo de un profesor nativo, con el objetivo de mejorar la habilidad comunicativa y la pronunciación. Pueden ser individuales o grupales.",
-          "profesores": ["natalia"],
+          "profesores": ["natalia ureta"],
           "cantidad_alumnos": 3,
           "modalidades": ["online"],
           "duracion": "varía según el alumno",
@@ -90,7 +84,7 @@
         {
           "nombre": "español",
           "descripcion": "Las clases son interactivas, donde se ven conceptos de gramática y vocabulario. Están a cargo de un profesor nativo, con el objetivo de mejorar la habilidad comunicativa y la pronunciación. Pueden ser individuales o grupales.",
-          "profesores": ["eduardo luján", "celeste arias", "cecilia carabajal", "natalia"],
+          "profesores": ["eduardo luján", "celeste arias", "cecilia carabajal"],
           "cantidad_alumnos": "Clases sin cupo limitado",
           "modalidades": ["online", "presencial"],
           "duracion": "varía según el alumno",
