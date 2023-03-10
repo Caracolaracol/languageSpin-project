@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import ukFlag from '../assets/united-kingdom.png';
 import itFlag from '../assets/italy.png';
 import brFlag from '../assets/brazil.png';
-import arFlag from '../assets/argentina.png';
+import esFlag from '../assets/spain.png';
 import { Container } from '../components/utils/utils';
 
 function NavBar() {
@@ -76,7 +76,7 @@ function NavBar() {
               {({ isActive }) => (
                 <>
                   <img
-                    src={arFlag}
+                    src={esFlag}
                     className={`${
                       isActive && 'brightness-125'
                     } ring-2 md:ring-4 ring-white w-16 h-16 md:w-32 md:h-32 object-cover rounded-full transition hover:brightness-110`}
