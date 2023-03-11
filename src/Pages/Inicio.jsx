@@ -25,18 +25,18 @@ function Inicio() {
               en personalizar las clases y poder brindar el mejor aprendizaje para los alumnos.
             </p>
           </div>
-          <div className='flex flex-col-reverse justify-evenly sm:flex-row gap-2'>
-            <div className=' bg-white rounded-md p-4'>
+          <div className='flex flex-col-reverse justify-evenly sm:flex-row sm:gap-2 w-full'>
+            <div className=' bg-white rounded-md p-2 sm:py-4'>
               <iframe
-                className='h-[576px] w-[100%] sm:h-[512px] sm:w-[288px] md:h-[720px] md:w-[405px] rounded-lg overflow-hidden'
+                className='h-[576px] w-[100%] sm:h-[512px] sm:w-[288px] md:h-[608px] md:w-[342px] lg:h-[720px] lg:w-[405px] rounded-lg overflow-hidden'
                 src='https://www.youtube.com/embed/Qp19qYFqoCU'
                 title='YouTube video player'
                 frameBorder='0'
                 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen'></iframe>
             </div>
-            <div className=' bg-white rounded-md p-4'>
+            <div className=' bg-white rounded-md p-2 sm:py-4'>
               <iframe
-                className='h-[576px] w-[100%] sm:h-[512px] sm:w-[288px] md:h-[720px] md:w-[405px] rounded-lg overflow-hidden'
+                className='h-[576px] w-[100%] sm:h-[512px] sm:w-[288px] md:h-[608px] md:w-[342px] lg:h-[720px] lg:w-[405px] rounded-lg overflow-hidden'
                 src='https://www.youtube.com/embed/3zpuS8dC5bM'
                 title='YouTube video player'
                 frameBorder='0'
