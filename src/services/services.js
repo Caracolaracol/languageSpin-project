@@ -11,3 +11,8 @@ export const getTestimonials = (language) => {
   const data = testimonios.filter((element) => element.idioma === language);
   return data;
 };
+
+export const getTeacherSpeechs = () => {
+  const {profes} = db;
+  return profes
+}
