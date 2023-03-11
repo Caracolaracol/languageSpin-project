@@ -10,19 +10,19 @@ import {
 
 function Footer() {
   return (
-    <div className='grid grid-cols-3 lg:grid-cols-3 gap-4 lg:items-center lg:justify-items-center bg-verdeSpin text-zinc-200 p-4 lg:p-8'>
-      <ul className='text-xs space-y-2 font-semibold flex flex-col justify-between'>
+    <div className='grid grid-cols-3 grid-rows-2 sm:grid-cols-3 sm:grid-rows-1 grid-flow-dense bg-verdeSpin text-zinc-200 p-4 sm:px-7 md:px-12 lg:px-[10vw] xl:px-[14vw] 2xl:px-[17vw] lg:p-8'>
+      <ul className='row-span-2 flex flex-col justify-evenly w-[13rem] sm:w-[10rem] pt-2 space-y-2 font-semibold text-xs sm:col-span-1-span-1 sm:place-self-center sm:row-span-1 md:w-auto sm:justify-self-start'>
         <li className='flex items-center gap-2'>
           <FaPhoneAlt className='w-4 h-4' />
           <p>383-4069803</p>
         </li>
         <li className='flex items-center gap-2'>
           <FaMapMarkerAlt className='w-4 h-4' />
-          <p>Pasaje Zambonini 1103, San Fernando del Valle de Catamarca</p>
+          <p>Pje. Zambonini 1103, San Fernando del Valle de Catamarca</p>
         </li>
       </ul>
 
-      <ul className='flex sm:items-center gap-3 justify-self-end flex-wrap w-[50%] sm:w-auto justify-end '>
+      <ul className='flex col-span-2 place-self-end justify-end  gap-3 w-[12rem] mb-2 sm:w-auto sm:col-span-1 sm:place-self-center'>
         <li>
           <Link
             to='https://api.whatsapp.com/send?phone=543834069803&text=%C2%A1Gracias%20por%20comunicarte!%20Te%20vamos%20a%20responder%20lo%20m%C3%A1s%20pronto%20posible'
@@ -47,7 +47,7 @@ function Footer() {
         </li>
       </ul>
 
-      <ul className='self-end place-self-end col-span-2  lg:place-self-auto lg:col-auto'>
+      <ul className='row-span-2 col-span-2 place-self-end sm:col-span-1 sm:place-self-center sm:justify-self-end'>
         <li>
           <Link
             to='/nosotros'
