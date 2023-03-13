@@ -10,7 +10,6 @@ import {
 
 function Footer() {
   return (
-
     <div className='grid grid-cols-3 grid-rows-2 sm:grid-cols-3 sm:grid-rows-1 grid-flow-dense bg-verdeSpin text-zinc-200 p-3 sm:p-4 sm:px-7 md:px-12 lg:px-[10vw] xl:px-[14vw] 2xl:px-[17vw] lg:p-8'>
       <ul className='row-span-2 flex flex-col justify-between sm:justify-evenly w-[12rem] sm:w-[10rem] sm:space-y-2 font-semibold text-xs sm:col-span-1-span-1 sm:place-self-center sm:row-span-1 md:w-auto sm:justify-self-start'>
         <li>
@@ -26,7 +25,7 @@ function Footer() {
           <p>Pje. Zambonini 1103, San Fernando del Valle de Catamarca</p>
         </li>
       </ul>
-      
+
       <ul className='flex flex-col col-span-2 place-self-end sm:col-span-1 sm:justify-start sm:place-self-start sm:justify-self-center'>
         <div>
           <h1 className='relative font-semibold text-xs w-[100%] pb-2'>SOCIAL</h1>
@@ -58,11 +57,10 @@ function Footer() {
       </ul>
 
       <ul className='row-span-2 col-span-2 place-self-end self-center sm:col-span-1 sm:place-self-center sm:justify-self-end'>
-
         <li>
           <Link
             to='/nosotros'
-            className='shadow-lg border border-zinc-200 border-opacity-30 text-xs uppercase  text-zinc-100 font-semibold  transition  bg-black bg-opacity-10 sm:p-[22px] p-[12px] rounded-md hover:text-white hover:bg-opacity-30'>
+            className='shadow-lg border border-zinc-200 border-opacity-30 text-xs uppercase  text-zinc-100 font-semibold  transition  bg-black bg-opacity-10 px-4 py-3 md:py-4 md:px-5 rounded-md hover:text-white hover:bg-opacity-30'>
             Nosotros
           </Link>
         </li>

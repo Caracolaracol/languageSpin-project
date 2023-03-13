@@ -46,7 +46,7 @@ function Nosotros() {
             <p className='text-center'>
               También creemos en la necesidad de aprender en un contexto comunicativo e incluimos a
               los alumnos a nuestros club de conversación e invitamos a nativos a nuestras clases
-              online
+              online.
             </p>
           </div>
         </Section>
