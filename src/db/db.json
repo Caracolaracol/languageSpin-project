@@ -117,33 +117,34 @@
   ],
   "profes": [
     {
-      "name": "Eduardo",
-      "speech": "Hey! This is Eduardo 😃 I'm in charge of the conversation club and I’m a language assistant. ",
+      "name": "Celeste",
+      "speech": "Hey! My name's Celeste. I'm the founder and coordinator at Language Spin Idiomas. I'm an English teacher and I've been studying English since I was 13 years old.  ",
       "index": 0
     },
     {
       "name": "Eduardo",
-      "speech": "Hey! My name's Celeste. I'm the founder and coordinator at Language Spin Idiomas. I'm an English teacher and I've been studying English since I was 13 years old.  ",
+      "speech": "Hey! This is Eduardo 😃 I'm in charge of the conversation club and I'm a language assistant. ",
+
       "index": 1
     },
     {
-      "name": "Eduardo",
-      "speech": "Hello! my name’s Agostina. I like working with kids and I love teaching people at their homes! (you can check our “teacher at home” classes out)",
+      "name": "Agostina",
+      "speech": "Hello! my name's Agostina. I like working with kids and I love teaching people at their homes! (you can check our “teacher at home” classes out)",
       "index": 2
     },
     {
-      "name": "Eduardo",
-      "speech": "Hi! I’m Agustina and I’m currently in charge of small groups. I enjoy working with adults and my classes are dynamic and interactive.",
+      "name": "Agustina",
+      "speech": "Hi! I'm Agustina and I'm currently in charge of small groups. I enjoy working with adults and my classes are dynamic and interactive.",
       "index": 3
     },
     {
-      "name": "Eduardo",
-      "speech": "Hi! I’m Belén! I like working with kids and I enjoy delivering interactive and funny lessons.",
+      "name": "Belén",
+      "speech": "Hi! I'm Belén! I like working with kids and I enjoy delivering interactive and funny lessons.",
       "index": 4
     },
     {
-      "name": "Eduardo",
-      "speech": "Hi! my name’s Ayelen and I’m a ESL teacher. I’m in charge of some courses and I love teaching online.",
+      "name": "Ayelén",
+      "speech": "Hi! my name's Ayelen and I'm a ESL teacher. I'm in charge of some courses and I love teaching online.",
       "index": 5
     }
   ]
