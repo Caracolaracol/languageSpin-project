@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import { Container, PageTitle, Section, SectionTitle } from '../../components/utils/utils';
 import thankyou from '/thankyou.png';
@@ -12,7 +12,13 @@ import profe6 from '../../assets/profes/ayelen.jpg';
 import profe3 from '../../assets/profes/agostina.jpeg';
 
 function Nosotros() {
+  const scroll = useRef()
   const [speechData, setSpeechData] = useState([]);
+
+  useEffect(()=> {
+    scroll.current && scroll.current.scrollIntoView()
+    window.scroll(0,0)
+  },[])
 
   useEffect(() => {
     const getData = async () => {
@@ -21,12 +27,12 @@ function Nosotros() {
       setSpeechData(speech);
     };
     getData();
-  }, []);
+  }, [speechData]);
 
   const profes = [profe1, profe2, profe4, profe5, profe6, profe3];
 
   return (
-    <div className='transicion pt-8 md:pt-12'>
+    <div className='transicion pt-8 md:pt-12' ref={scroll}>
       <Container>
         <PageTitle text='sobre nosotros' />
         <Section>
