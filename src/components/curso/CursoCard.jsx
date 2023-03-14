@@ -59,7 +59,7 @@ export const CursoCard = ({ curso }) => {
             <IoPerson className='w-6 h-6 text-zinc-300' />
             <span>Profesores</span>
           </p>
-          <div className='flex items-center justify-center gap-2 flex-wrap'>
+          <div className='flex items-center justify-center gap-2 flex-wrap max-w-xl mx-auto'>
             {curso.profesores.map((profesor) => (
               <span
                 key={profesor}

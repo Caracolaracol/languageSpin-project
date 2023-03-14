@@ -12,13 +12,13 @@ import profe6 from '../../assets/profes/ayelen.jpg';
 import profe3 from '../../assets/profes/agostina.jpeg';
 
 function Nosotros() {
-  const scroll = useRef()
+  const scroll = useRef();
   const [speechData, setSpeechData] = useState([]);
 
-  useEffect(()=> {
-    scroll.current && scroll.current.scrollIntoView()
-    window.scroll(0,0)
-  },[])
+  useEffect(() => {
+    scroll.current && scroll.current.scrollIntoView();
+    window.scroll(0, 0);
+  }, []);
 
   useEffect(() => {
     const getData = async () => {
@@ -29,7 +29,7 @@ function Nosotros() {
     getData();
   }, [speechData]);
 
-  const profes = [profe1, profe2, profe4, profe5, profe6, profe3];
+  const profes = [profe1, profe2, profe3, profe4, profe5, profe6];
 
   return (
     <div className='transicion pt-8 md:pt-12' ref={scroll}>
@@ -62,31 +62,7 @@ function Nosotros() {
         src={staff}
         className='pb-8 mx-auto w-full  md:h-[470px] md:object-cover md:object-top'
       />
-      {/* <Section>
-          <div className='flex gap-6'>
-            <div className='flex flex-col justify-center items-center gap-1'>
-              <SectionTitle text='docentes' />
-              <p className='text-center'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestias dolor
-                hic corrupti sed? Aspernatur labore accusantium libero ullam laudantium?
-              </p>
-            </div>
-            <div className='flex flex-col justify-center items-center gap-1'>
-              <SectionTitle text='objetivo' />
-              <p className='text-center'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, non! Labore vel
-                provident illo tempore quos perferendis praesentium debitis eaque.
-              </p>
-            </div>
-            <div className='flex flex-col justify-center items-center gap-1'>
-              <SectionTitle text='misión' />
-              <p className='text-center'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quis quidem
-                accusantium dolorem esse, veniam magni? Ducimus quis cumque hic!
-              </p>
-            </div>
-          </div>
-        </Section> */}
+
       <Container>
         <Section>
           <div className='flex flex-row justify-center '>

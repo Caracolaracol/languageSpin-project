@@ -15,7 +15,7 @@
         {
           "nombre": "inglés con certificación de UTN",
           "descripcion": "Puede iniciarse en cualquier momento del año. Se realiza una evaluación previa para definir el nivel del alumno. Luego se estima el tiempo de preparación para rendir el examen final.",
-          "profesores": ["celeste arias"],
+          "profesores": ["celeste arias", "belén peralta", "eduardo luján", "ayelén olima"],
           "cantidad_alumnos": 12,
           "modalidades": ["presencial", "online"],
           "duracion": "varía según el alumno",
@@ -33,7 +33,12 @@
         {
           "nombre": "clases de apoyo para primaria y secundaria",
           "descripcion": "Clases disponibles todo el año, para rendir exámenes, previas o consultas específicas. También recomendado para aprender por diversión y curiosidad.",
-          "profesores": ["agostina d'alessandro", "eduardo luján"],
+          "profesores": [
+            "agostina d'alessandro",
+            "eduardo luján",
+            "belén peralta",
+            "agustina leiva"
+          ],
           "cantidad_alumnos": 4,
           "modalidades": ["presencial", "online", "teacher at home"],
           "duracion": "varía según el alumno",
@@ -42,7 +47,14 @@
         {
           "nombre": "clases flex",
           "descripcion": "Son clases que pueden tomarse en cualquier momento del año. Se coordinan horarios flexibles entre el alumno y profesor.",
-          "profesores": ["celeste arias", "ayelén olima", "eduardo luján", "agostina d'alessandro"],
+          "profesores": [
+            "celeste arias",
+            "ayelén olima",
+            "eduardo luján",
+            "agostina d'alessandro",
+            "belén peralta",
+            "agustina leiva"
+          ],
           "cantidad_alumnos": 15,
           "modalidades": ["presencial", "online"],
           "duracion": "varía según el alumno",
