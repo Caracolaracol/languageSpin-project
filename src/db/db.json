@@ -34,7 +34,7 @@
           "nombre": "clases de apoyo para primaria y secundaria",
           "descripcion": "Clases disponibles todo el año, para rendir exámenes, previas o consultas específicas. También recomendado para aprender por diversión y curiosidad.",
           "profesores": [
-            "agostina d'alessandro",
+            "agostina alessandro",
             "eduardo luján",
             "belén peralta",
             "agustina leiva"
@@ -161,17 +161,17 @@
     },
     {
       "name": "Rocio",
-      "speech": "",
+      "speech": "Hi! My name's Rocio and I'm in charge of the elementary courses. I'm a happy person and I really enjoy delivering the classes!",
       "index": 6
     },
     {
       "name": "Natalia",
-      "speech": "",
+      "speech": "Olá! Mí nombre es Natalia y dictó las clases de portugués. Disfruto mucho de las clases y me gusta transmitir la misma energía a los alumnos. Te espero en las clases 😀",
       "index": 7
     },
     {
       "name": "Cecilia",
-      "speech": "",
+      "speech": "Ciao! muchas gracias por tu interés en las clases de italiano. Soy Cecilia y estoy por compartirte un poco mas sobre Italia, su gente, su cultura y su lengua.  Grazie mille!",
       "index": 8
     }
   ]
