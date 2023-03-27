@@ -10,6 +10,9 @@ import profe4 from '../../assets/profes/Agustina.jpg';
 import profe5 from '../../assets/profes/belen.jpg';
 import profe6 from '../../assets/profes/ayelen.jpg';
 import profe3 from '../../assets/profes/agostina.jpeg';
+import profe7 from '../../assets/profes/Rocioromero.jpg';
+import profe8 from '../../assets/profes/Nataliaureta.jpg';
+import profe9 from '../../assets/profes/Ceciliacarvajal.jpg';
 
 function Nosotros() {
   const scroll = useRef();
@@ -29,7 +32,7 @@ function Nosotros() {
     getData();
   }, [speechData]);
 
-  const profes = [profe1, profe2, profe3, profe4, profe5, profe6];
+  const profes = [profe1, profe2, profe3, profe4, profe5, profe6, profe7, profe8, profe9];
 
   return (
     <div className='transicion pt-8 md:pt-12' ref={scroll}>

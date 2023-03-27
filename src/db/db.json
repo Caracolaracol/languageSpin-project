@@ -158,6 +158,21 @@
       "name": "Ayelén",
       "speech": "Hi! my name's Ayelen and I'm a ESL teacher. I'm in charge of some courses and I love teaching online.",
       "index": 5
+    },
+    {
+      "name": "Rocio",
+      "speech": "",
+      "index": 6
+    },
+    {
+      "name": "Natalia",
+      "speech": "",
+      "index": 7
+    },
+    {
+      "name": "Cecilia",
+      "speech": "",
+      "index": 8
     }
   ]
 }
