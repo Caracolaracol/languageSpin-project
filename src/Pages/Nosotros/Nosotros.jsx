@@ -71,12 +71,12 @@ function Nosotros() {
           <div className='flex flex-row justify-center '>
             <SectionTitle text='nuestros profesores' />
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-4'>
+          <div className='grid grid-cols-1   md:grid-cols-6 gap-6 mt-4'>
             {speechData
               ? speechData.map((speech) => (
                   <div
                     key={speech.index}
-                    className='flex flex-col justify-start items-center gap-4'>
+                    className='flex flex-col col-span-2 justify-start items-center gap-4 md:item'>
                     <img
                       className='shadow-xl w-[40vw] sm:w-[60%] md:w-[65%] h-auto rounded-full'
                       src={profes[speech.index]}
